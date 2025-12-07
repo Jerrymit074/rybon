@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic fallback font stack; to use Inter locally, place font files in /assets/fonts and import here */
+:root { --inter-font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+body {
+  font-family: 'Inter', var(--inter-font);
+  background-color: #f3f4f6;
+}
